@@ -11,8 +11,8 @@ public void login() {
 
 }
 
-public boolean authenticate() {
-   return user.equals("gagan") && password.equals("testpassword");
+public boolean authenticate(String u,String pwd) {
+   return user.equals("gagan") && pwd.equals("testpassword");
 
 }
 
