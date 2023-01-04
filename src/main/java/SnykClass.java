@@ -8,7 +8,8 @@ public void login() {
   String part1="st";
   String part2="ar";
   String password = part1 + part2;
-  boolean loggedIn = authenticate(userName,password);
+  String password1 = "atom";
+  boolean loggedIn = authenticate(userName,password1);
   System.out.println("logged in successfully");
 
 }
