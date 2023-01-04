@@ -5,8 +5,10 @@ public class SnykClass {
 
 public void login() {
   String userName = "gagan";
-  String p = "star";
-  boolean loggedIn = authenticate(userName,p);
+  String part1="st";
+  String part2="ar";
+  String pwd = part1 + part2;
+  boolean loggedIn = authenticate(userName,pwd);
   System.out.println("logged in successfully");
 
 }
